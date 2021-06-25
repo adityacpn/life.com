@@ -1,0 +1,7 @@
+h4{font-family:Albondigas Italic;color:#FF5252}
+li{font-family:Britannic Bold;font-size:20px;text-decoration:bold;color:black;border-radius:5px 10px;}
+p{font-family:Candara;font-size:16px}
+input[type=button]{opacity:0.8;}
+input[type=button]:hover{opacity:1;}
+img{opacity:0.5;}
+img:hover{opacity:1;}

@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Sign Up</title>
+<a href="index.html"><img src="../images/home.jpg" alt="HOME" style="float:left;width:40px;height:40px;padding:15px;opacity:1;"></img></a>
+<style>
+input[type=text],textarea, select,input[type=password] {
+    width: 100%;
+    padding: 12px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+	resize:none;
+}
+label{
+	font-family:Pristina Regular;
+	font-size:17px;
+	color:lightblue;
+	}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 40px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	align:center;
+}
+
+
+
+
+</style>
+</head>
+<body style="background-image:url(../images/signupback.jpg)">
+<center>
+<h5 style="color:white;text-shadow:5px 5px 10px lightblue;font-size:30px">REGISTER YOURSELF</h5>
+
+<form action="data.php">
+		<table>
+		<tr>
+		<td><strong><label>NAME</label></td>
+		<td><input type="text" name="t1" value=""/></td>
+		</tr>
+		<tr>
+		<td><strong><label>E-MAIL-ADDRESS</label></td>
+		<td><input type="text" name="ADDRESS" value=""/>
+		</td>
+		</tr>
+		<tr>
+		<td><strong><label>GENDER       </label></td>
+		<td style="font-family:AR Destine Regular;color:lightblue"><input type="radio" name="gender" />MALE</td>
+		<td style="font-family:AR Destine Regular;color:lightblue"><input type="radio" name="gender" />FEMALE</td>
+		</tr>
+		<tr>
+		<td><strong><label>PASSWORD</label></td>
+		<td><input type="password" name="LINE 1" value="">
+		</textarea></td>
+		</tr>
+		<tr
+		<tr>
+		<td><strong><label>CONFIRM PASSWORD</label></td>
+		<td><input type="password" name="LINE 2" value="">
+		</td>
+		</tr>
+		<td><strong><label>YOUR DESCRIPTION</label></td>
+		<td><textarea name="description of yourself" value=""></textarea></td>
+		<tr>
+		<td><a href="signupsubmit.html" >
+		
+		<input type="button" name="SUBMIT" value="SUBMIT" style="background-color: brown;border-radius:5px;color: white;padding: 16px 32px;text-decoration: none;margin: 4px 2px;cursor: pointer;" onclick="mylink()"/>
+		
+		</a></td>
+		
+		</tr>
+		</form>
+
+</center>
+<a href="../../e-book/index.html" target="_blank"><input type="button" name="w" value="WHAT MADE ME MAKE THIS WEBSITE" style="background-color:#ff4000 ;border-radius:5px;color: white;padding: 40px 60px;text-decoration: none;cursor: pointer;position:absolute;bottom:10px;left:500px"/></a>
+</body>
+</html>
